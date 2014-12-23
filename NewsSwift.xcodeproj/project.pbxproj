@@ -13,6 +13,8 @@
 		79654AE01A46C10D0036F450 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79654ADF1A46C10D0036F450 /* Images.xcassets */; };
 		79654AE31A46C10D0036F450 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79654AE11A46C10D0036F450 /* LaunchScreen.xib */; };
 		79654AEF1A46C10D0036F450 /* NewsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79654AEE1A46C10D0036F450 /* NewsSwiftTests.swift */; };
+		79654AFB1A46C4BD0036F450 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79654AFA1A46C4BD0036F450 /* NewsListTableViewController.swift */; };
+		79654AFD1A46CE5E0036F450 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79654AFC1A46CE5E0036F450 /* NewsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		79654AE81A46C10D0036F450 /* NewsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79654AED1A46C10D0036F450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79654AEE1A46C10D0036F450 /* NewsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSwiftTests.swift; sourceTree = "<group>"; };
+		79654AFA1A46C4BD0036F450 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		79654AFC1A46CE5E0036F450 /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				79654AD81A46C10D0036F450 /* AppDelegate.swift */,
 				79654ADA1A46C10D0036F450 /* ViewController.swift */,
 				79654ADC1A46C10D0036F450 /* Main.storyboard */,
+				79654AFA1A46C4BD0036F450 /* NewsListTableViewController.swift */,
+				79654AFC1A46CE5E0036F450 /* NewsItem.swift */,
 				79654ADF1A46C10D0036F450 /* Images.xcassets */,
 				79654AE11A46C10D0036F450 /* LaunchScreen.xib */,
 				79654AD61A46C10D0036F450 /* Supporting Files */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				79654ADB1A46C10D0036F450 /* ViewController.swift in Sources */,
+				79654AFD1A46CE5E0036F450 /* NewsItem.swift in Sources */,
+				79654AFB1A46C4BD0036F450 /* NewsListTableViewController.swift in Sources */,
 				79654AD91A46C10D0036F450 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
